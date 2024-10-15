@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Palette Generator</title>
+    <link rel="stylesheet" href="../css/index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Color Palette Generator</h1>
+      <input type="color" id="colorPicker" value="#64af6a" />
+      <button onclick="generatePalette()">Generate Palette</button>
+
+      <div class="palette">
+        <!-- Modern Category -->
+        <div class="category">
+          <h3>Modern</h3>
+          <div id="modern" class="shade-boxes"></div>
+        </div>
+
+        <!-- Classic Category -->
+        <div class="category">
+          <h3>Classic</h3>
+          <div id="classic" class="shade-boxes"></div>
+        </div>
+
+        <!-- Vibrant Category -->
+        <div class="category">
+          <h3>Vibrant</h3>
+          <div id="vibrant" class="shade-boxes"></div>
+        </div>
+
+        <!-- Old School Category -->
+        <div class="category">
+          <h3>Old School</h3>
+          <div id="oldSchool" class="shade-boxes"></div>
+        </div>
+
+        <!-- Vintage Category -->
+        <div class="category">
+          <h3>Vintage</h3>
+          <div id="vintage" class="shade-boxes"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/index.js"></script>
+  </body>
+</html>
