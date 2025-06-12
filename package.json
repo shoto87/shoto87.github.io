@@ -2,7 +2,7 @@
   "name": "patrix-d-k0d4p3-demo-car-model",
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://shoto87.github.io/shoto87.github.io/",
+  "homepage": "https://shoto87.github.io/demo-car/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
